@@ -6,8 +6,13 @@ const port = process.env.PORT || 5432;
 app.use(express.static(__dirname + '/public'));
 
 // views is directory for all template files
-app.set('views', __dirname + '/views');
+app.set('views', __dirname + '/views/pages');
 app.set('view engine', 'ejs');
+
+// home page 
+app.get('/', function (req, res) {
+    res.render('pages/index');
+});
 
 // start the server listening
 app.listen(port, function () {
