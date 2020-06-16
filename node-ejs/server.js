@@ -1,6 +1,5 @@
 // load the things we need
 var express = require('express');
-var ejs_layout = require('express-ejs-layouts');
 
 var app = express();
 
@@ -30,5 +29,5 @@ app.get('/about', function (req, res) {
     res.render('pages/about');
 });
 
-app.listen(8080);
-console.log('8080 is the magic port');
+app.listen(8400);
+console.log('8400 is the magic port');
