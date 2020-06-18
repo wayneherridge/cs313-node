@@ -1,0 +1,116 @@
+{
+    "1": [
+        {
+            "weight": 1,
+            "price": 0.55
+        },
+        {
+            "weight": 2,
+            "price": 0.70
+        },
+        {
+            "weight": 3,
+            "price": 0.85
+        },
+        {
+            "weight": 3.5,
+            "price": 1.00
+        }
+    ],
+    "2": [
+        {
+            "weight": 1,
+            "price": 0.50
+        },
+        {
+            "weight": 2,
+            "price": 0.65
+        },
+        {
+            "weight": 3,
+            "price": 0.80
+        },
+        {
+            "weight": 3.5,
+            "price": 0.95
+        }
+    ],
+    "3": [
+        {
+            "weight": 1,
+            "price": 1.00
+        },
+        {
+            "weight": 2,
+            "price": 1.20
+        },
+        {
+            "weight": 3,
+            "price": 1.40
+        },
+        {
+            "weight": 4,
+            "price": 1.60
+        },
+        {
+            "weight": 5,
+            "price": 1.80
+        },
+        {
+            "weight": 6,
+            "price": 2.00
+        },
+        {
+            "weight": 7,
+            "price": 2.20
+        },
+        {
+            "weight": 8,
+            "price": 2.40
+        },
+        {
+            "weight": 9,
+            "price": 2.60
+        },
+        {
+            "weight": 10,
+            "price": 2.80
+        },
+        {
+            "weight": 11,
+            "price": 3.00
+        },
+        {
+            "weight": 12,
+            "price": 3.20
+        },
+        {
+            "weight": 13,
+            "price": 3.40
+        }
+    ],
+    "4": [
+        {
+            "weight": 1,
+            "price": 3.80
+        },
+        {
+            "weight": 5,
+            "price": 4.60
+        },
+        {
+            "weight": 9,
+            "price": 5.30
+        },
+        {
+            "weight": 13,
+            "price": 5.90
+        }
+    ],
+    "options": {
+        "1": "Letters (Stamped)",
+        "2": "Letters (Metered)",
+        "3": "Large Envelopes (Flats)",
+        "4": "First-Class Package Service - Retail"
+    }
+}
