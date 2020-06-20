@@ -32,16 +32,20 @@
         <h1>test</h1>
 
         <form action="postcalc/" method="POST">
-            <label for="weight">Weight:</label>
-            <input type="text" id="weight" name="weight"><br><br>
-            <label for="type">Type of mail:</label>
-            <select id="select" name="mailtype">
-                <option value="default">default</option>
-                <option value="1">Letters (Stamped)</option>
-                <option value="2">Letters (Metered)</option>
-                <option value="3">Large Envelopes (Flats)</option>
-                <option value="4">First-Class Package Service—Retail</option>
-            </select>
+            <div class="row">
+                <div class="col">
+                    <label for="weight">Weight:</label>
+                    <input type="text" id="weight" name="weight"><br><br>
+                    <label for="type">Type of mail:</label>
+                    <select id="select" name="mailtype">
+                        <option value="default">default</option>
+                        <option value="1">Letters (Stamped)</option>
+                        <option value="2">Letters (Metered)</option>
+                        <option value="3">Large Envelopes (Flats)</option>
+                        <option value="4">First-Class Package Service—Retail</option>
+                    </select>
+                </div>
+            </div>
             <input type="submit" value="Submit">
         </form>
     </div>
