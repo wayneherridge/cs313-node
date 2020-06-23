@@ -1,0 +1,25 @@
+{
+  "name": "week10team",
+  "version": "1.0.0",
+  "description": "Week 10 Team ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Wayne Herridge",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.2.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wayneherridge/wk10team.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wayneherridge/wk10team/issues"
+  },
+  "homepage": "https://github.com/wayneherridge/wk10team#readme"
+}
